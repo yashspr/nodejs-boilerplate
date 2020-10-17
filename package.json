@@ -1,0 +1,37 @@
+{
+	"name": "nodejs-boilerplate",
+	"devDependencies": {
+		"eslint": "^7.11.0",
+		"nodemon": "^2.0.5",
+		"prettier": "^2.1.2"
+	},
+	"scripts": {
+		"start": "nodemon src/index.js"
+	},
+	"dependencies": {
+		"axios": "^0.20.0",
+		"bcrypt": "^5.0.0",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-session": "^1.17.1",
+		"jsonwebtoken": "^8.5.1",
+		"knex": "^0.21.6",
+		"knex-paginate": "^1.2.3",
+		"lodash": "^4.17.20",
+		"module-alias": "^2.2.2",
+		"moment": "^2.29.1",
+		"mongodb": "^3.6.2",
+		"mongoose": "^5.10.9",
+		"morgan": "^1.10.0",
+		"mysql": "^2.18.1"
+	},
+	"_moduleAliases": {
+		"@config": "./config",
+		"@src": "./src",
+		"@controllers": "./src/controllers",
+		"@helpers": "./src/helpers",
+		"@routes": "./src/routes",
+		"@services": "./src/services"
+	}
+}
