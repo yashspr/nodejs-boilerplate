@@ -4,7 +4,7 @@ const config = require('@config/config');
 const express = require('express');
 const morgan = require('morgan');
 const knex = require('knex')(config.knexConnectionConfig);
-const errorHandlerMiddleware = require('./middleware/errorMiddleware');
+const errorHandlerMiddleware = require('@middleware/errorMiddleware');
 
 require('@src/init/db').initKnex();
 
