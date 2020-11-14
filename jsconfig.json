@@ -8,7 +8,8 @@
 			"@helpers": ["./src/helpers/*"],
 			"@routes": ["./src/routes/*"],
 			"@services": ["./src/services/*"],
-			"@middleware": ["./src/middleware/*"]
+			"@middleware": ["./src/middleware/*"],
+			"@models": ["./src/models/*"]
 		}
 	}
 }
